@@ -3,7 +3,7 @@ import 'dart:math';
 
 class Game{
   int answer = 0;
-  int count = 1;
+  int count = 0;
   Game(){
     var r = Random();
     answer = r.nextInt(100) + 1;
